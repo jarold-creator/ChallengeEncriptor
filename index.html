@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Desafio Encriptador</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <div id="logo">
+                <img src="Imagenes/Vector.svg" alt="">
+            </div>
+        </header>
+        <div id="result">
+            <textarea name="" id="txtcifrar" placeholder="Ingrese texto" cols="10" rows="20"></textarea>
+            <textarea name="result" id="txtdescifrado" cols="10" rows="20"></textarea>
+        </div>
+        <div id="parrafo1">
+            <img src="imagenes/Muñeco.svg" alt="">
+            <p><strong>Ningun mensaje encontrado</strong></p>
+            <p><strong>Ingresa el texto que quieras encriptar o desencriptar</strong></p>
+        </div>
+        <p id="parrafo"><img src="Imagenes/important.png" alt="signo importamte"> No uses acentos ni mayusculas</p>
+        <div class="bottons">
+            <button type="button" id="btnencriptado">Encriptar</button>
+            <button type="button" id="btndesencriptado">Desencriptar</button>
+            <button type="button" id="btncopiar">Copiar</button>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+<!-- libreria para alertas -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="sweetalert.js"></script>
+
+</html>

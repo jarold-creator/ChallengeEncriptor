@@ -1,0 +1,139 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+#btncopiar {
+    display: none;    
+}
+
+
+
+#contenedor{
+    width: 80%;
+    height: 700px;
+    margin: 0 auto; 
+    padding-top: 20px;
+    background-color: lightgray;
+}
+
+#logo{
+    width: 96%;
+    height: 60px;
+    margin: 0 auto;    
+    /*background-color: aqua;*/ 
+}
+
+
+#result{
+    width: 80%;
+    margin: 0 auto;
+    height: 455px;
+    display: flex;
+    justify-content: space-between;      
+}
+
+#txtcifrar{
+    width: 350px;
+    height: 200px;
+    background-color: lightgray;
+    border-style: none; 
+    border-radius: 25px; 
+    font-size: 25px; 
+    opacity: 0.5;
+    outline: none;
+    border: 0; 
+}
+
+#txtdescifrado{
+    width: 320px;
+    height: 550px;
+    border-radius: 25px;
+    font-size: 25px; 
+    opacity: 0.5;  
+    outline: none;
+    border: 0;  
+    box-shadow: 10px 5px 5px gray;  
+}
+
+#parrafo{
+    margin: 10px 0 10px 100px;
+    position: absolute;
+    bottom: 100px;    
+}
+
+.bottons{
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 50px;  
+    right: 20px;   
+}
+
+#parrafo1{
+    position: absolute;
+    left: 710px;
+    bottom: 180px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+#btnencriptado{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 100px;
+    border: 0;
+    border-radius: 20px;
+    background-color:  yellowgreen;
+    color: whitesmoke;      
+}
+
+
+#btndesencriptado{
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30px;
+    border: 0;
+    border-radius: 20px;
+    background-color:  lightcoral;
+    color: whitesmoke;
+}
+
+#btncopiar{
+    position: absolute;
+    left: 660px;
+    bottom: 6px;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    border: 0;
+    border-radius: 20px;
+    background-color:  lightblue;
+    color: whitesmoke;
+}
+
+/*animacion para el botones*/
+#btnencriptado:hover{
+    background-color: green;
+    animation-duration: 1m;
+    /*box-shadow: 2px 2px 2px 2px lightgreen;*/
+    /*box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);*/    
+}
+
+#btndesencriptado:hover{
+    background-color: red;
+    animation-duration: 1m;
+    box-shadow: 2px 2px 2px 2px palevioletred;
+}
+
+#btncopiar:hover{
+    background-color: blue;
+    animation-duration: 1m;
+    box-shadow: 2px 2px 2px 2px lightskyblue;
+}

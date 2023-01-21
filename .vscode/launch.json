@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://txtcifrar",
+            "request": "launch",
+            "url": "http://txtcifrar"
+        }
+    ]
+}
