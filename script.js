@@ -38,12 +38,15 @@ function copiar() {
     contenido.select();
     //ejecutamos el comando copiar 
     document.execCommand("copy");
+
+    
     Swal.fire({
         title: 'Texto Copiado ... ',
         icon: 'success',
         width: '30%',
-        timer: '5000',
+        timer: '5000',        
     });
+    
 }
 
 
@@ -61,5 +64,3 @@ btndesencriptar.onclick = desencriptar;
 var btnCopy = document.querySelector("#btncopiar");
 btnCopy.onclick = copiar;
 
-//posicion
-FocusOnInput();
