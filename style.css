@@ -76,19 +76,19 @@ body{
 #parrafo1{
     position: absolute;
     left: 700px;
-    bottom: 180px;
+    bottom: 150px;    
     text-align: center;
     font-size: 12px;
 }
 
 #parrafo2{
-    font-size:large;
+    font-size:medium;
     margin: 15px;
     font-style: italic;
 }
 
-#parrafo2{
-    font-size:medium;
+#parrafo3{
+    font-size:small;
     margin: 15px;
 }
 
